@@ -65,7 +65,11 @@ namespace MyNameSpace
             this.drinkTypeComboBox = new System.Windows.Forms.ComboBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
+=======
+            this.button1 = new System.Windows.Forms.Button();
+>>>>>>> feat1.2_discount_type
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -362,7 +366,11 @@ namespace MyNameSpace
             // 
             // groupBox2
             // 
+<<<<<<< HEAD
             this.groupBox2.Controls.Add(this.label1);
+=======
+            this.groupBox2.Controls.Add(this.button1);
+>>>>>>> feat1.2_discount_type
             this.groupBox2.Controls.Add(this.drinkTypeComboBox);
             this.groupBox2.Location = new System.Drawing.Point(211, 68);
             this.groupBox2.Name = "groupBox2";
@@ -400,6 +408,7 @@ namespace MyNameSpace
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+<<<<<<< HEAD
             // label1
             // 
             this.label1.AutoSize = true;
@@ -408,6 +417,16 @@ namespace MyNameSpace
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
+=======
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(81, 112);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+>>>>>>> feat1.2_discount_type
             // 
             // JuiceBarForm
             // 
@@ -484,7 +503,11 @@ namespace MyNameSpace
         private System.Windows.Forms.ComboBox drinkTypeComboBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label1;
+=======
+        private System.Windows.Forms.Button button1;
+>>>>>>> feat1.2_discount_type
     }
 }
 
