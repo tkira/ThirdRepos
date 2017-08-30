@@ -65,6 +65,7 @@ namespace MyNameSpace
             this.drinkTypeComboBox = new System.Windows.Forms.ComboBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -361,6 +362,7 @@ namespace MyNameSpace
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.drinkTypeComboBox);
             this.groupBox2.Location = new System.Drawing.Point(211, 68);
             this.groupBox2.Name = "groupBox2";
@@ -398,6 +400,15 @@ namespace MyNameSpace
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(78, 108);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
             // JuiceBarForm
             // 
             this.AcceptButton = this.addToOrderButton;
@@ -429,6 +440,7 @@ namespace MyNameSpace
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,6 +484,7 @@ namespace MyNameSpace
         private System.Windows.Forms.ComboBox drinkTypeComboBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
